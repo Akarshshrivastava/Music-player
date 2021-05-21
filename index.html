@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        <div class="container-left">
+            <div class="logo">
+                <h2>MELODY</h2>
+            </div>
+            <!-- <img src="./music-logo-bg.png" alt="" class="illustration"> -->
+            <div class="heading">
+                <h1>THE REAL SOUND</h1>
+            </div>
+        </div>
+        <img class="img" src="./assets/headphone.svg" alt="Image">
+        <div class="container-right">
+            <ul class="navLinks">
+                <a href="#"><li>HOME</li></a>
+                <a href="#"><li>ABOUT</li></a>
+                <a href="#"><li>SPECIFICATION</li></a>
+                <a href="#"><li>PRODUCTS</li></a>
+                <a href="#"><li>CONNECT</li></a>
+            </ul>
+            <div class="player">
+                <div class="text">Click to <span id="active"> Play</span></div>
+                <img src="./assets/playbutton.png" alt="Play" class="icon">
+            </div>
+        </div>
+    </section>
+    <audio src="./assets/song.mp3" id="song"></audio>
+    <script src="./script.js"></script>
+</body>
+</html>
